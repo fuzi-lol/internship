@@ -1,0 +1,12 @@
+s={10,20,30}
+s.add(40)
+l=[40,50,60,10]
+s.update(l,range(5))
+s.pop()
+s.discard(10)
+s.remove(30)
+print(s)
+y={30,40,50,60}
+print(s.intersection(y))
+print(s.union(y))
+print(s^y)
